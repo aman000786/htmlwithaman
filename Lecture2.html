@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+  
+</head>
+<body>
+
+    <h1>Lecture 2: Introduction to Lists and Tables</h1>
+    <p>In this lecture we will discuss about Nested Lists and Tables HTML.</p>
+<hr>
+    <h2>What are Nested lists</h2>
+    <p>In previous lecture we studied about lists. In this lecture we will study about Nested lists.</p>
+    <p>A nested list means placing one list inside another list.</p>
+    <p> It helps create a hierarchical structure (like categories and sub-categories).</p>
+
+    <h4>Example:</h4>
+
+    <div>
+    <ul>
+    <li>DSA
+        <ul>
+            <li>Array</li>
+            <li>Linked Lists</li>
+            <li>Queues</li>
+            <li>Stack</li>
+        </ul>
+    </li>
+    <li>Web Technologies
+        <ul>
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>JAVASCRIPT</li>
+        </ul>
+    </li>
+    <li>Aptitude</li>
+    <li>Gate</li>
+    </div>
+
+    <br>
+
+    <div>
+        <ol>
+  <li>Breakfast
+    <ul>
+        <li>Main Dish:Pancakes
+            <ul>
+                <li>Mapple Syrup</li>
+                <li>Fresh Berries</li>
+                <li>Whipped Cream</li>
+            </ul>
+        </li>
+        <li>Side:Fruit Salad</li>
+        <li>Drink: Orange Juice</li>
+    </ul>
+  </li>
+  <li>Lunch
+    <ul>
+        <li>Main Course:Build-your-own sandwich
+            <ol>
+                <li>Rajma Rice</li>
+                <li>Chapti</li>
+                <li>Sabji</li>
+            </ol>
+        </li>
+        <li>Side</li>
+        <li>Beverages</li>
+    </ul>
+  </li>
+  <li>Dinner
+    <ul>
+        <li>Appetizer: Garlic Bread</li>
+        <li>Main Course:Spaghetti
+            <ol>
+                <li>Place it in your plate</li>
+                <li>FIr khaao</li>
+            </ol>
+        </li>
+        <li>Dessert:Gulab Jamun</li>
+  </li>
+</ol>
+
+    </div>
+
+
+    <p>These are two examples of Nested Lists.</p>
+
+    <h3>HTML Lists Tags</h3>
+
+    <table>
+    <tbody>
+
+    <tr>
+      <th>Tag</th>
+      <th>Description</th>
+    </tr>
+
+    <tr>
+      <td><code>&lt;ul&gt;</code></td>
+      <td>Defines an unordered list</td>
+    </tr>
+
+    <tr>
+      <td><code>&lt;ol&gt;</code></td>
+      <td>Defines an ordered list</td>
+    </tr>
+
+    <tr>
+      <td><code>&lt;li&gt;</code></td>
+      <td>Defines a list item</td>
+    </tr>
+
+    <tr>
+      <td><code>&lt;dl&gt;</code></td>
+      <td>Defines a description list</td>
+    </tr>
+
+    <tr>
+      <td><code>&lt;dt&gt;</code></td>
+      <td>Defines a term in a description list</td>
+    </tr>
+
+    <tr>
+      <td><code>&lt;dd&gt;</code></td>
+      <td>Describes a term in a description list</td>
+    </tr>
+
+    </tbody>
+  </table>
+
+  <hr>
+
+  <h2>HTML Tables</h2>
+  <p>HTML tables allow web developers to arrange data into rows and columns.</p>
+
+  <h4>Example</h4>
+
+  <table border="1">
+    <thead>
+        <tr>
+            <th>Namr</th>
+            <th colspan="2">Contact Info</th>
+        </tr>
+    </thead>
+
+    <tbody>
+    <tr>
+        <td>John Doe</td>
+        <td>9902928555</td>
+        <td>xyz@gmail.com</td>
+    </tr>
+    <tr>
+        <td>Cooper</td>
+        <td>9902935884</td>
+        <td>yyy@gmail.com</td>
+    </tr>
+    <tr>
+        <td>Mohan</td>
+        <td>88745995454</td>
+        <td>ashvd@gmail.com</td>
+    </tr>
+    </tbody>
+
+</table>
+
+<h3>HTML Table Tags</h3>
+
+<table>
+    <tbody>
+
+    <tr>
+      <th>Tag</th>
+      <th>Description</th>
+    </tr>
+
+    <tr>
+      <td><code>&lt;table&gt;</code></td>
+      <td>Defines a table</td>
+    </tr>
+
+    <tr>
+      <td><code>&lt;th&gt;</code></td>
+      <td>Defines a header cell in a table</td>
+    </tr>
+
+    <tr>
+      <td><code>&lt;tr&gt;</code></td>
+      <td>DDefines a row in a table</td>
+    </tr>
+
+    <tr>
+      <td><code>&lt;td&gt;</code></td>
+      <td>Defines a cell in a table</td>
+    </tr>
+
+    <tr>
+      <td><code>&lt;caption&gt;</code></td>
+      <td>Defines a table caption</td>
+    </tr>
+
+    <tr>
+      <td><code>&lt;colgroup&gt;</code></td>
+      <td>Specifies a group of one or more columns in a table for formatting</td>
+    </tr>
+
+    <tr>
+      <td><code>&lt;col&gt;</code></td>
+      <td>Specifies column properties for each column within a colgroup element</td>
+    </tr>
+
+    <tr>
+      <td><code>&lt;thead&gt;</code></td>
+      <td>Groups the header content in a table</td>
+    </tr>
+
+    <tr>
+      <td><code>&lt;tbody&gt;</code></td>
+      <td>Groups the body content in a table</td>
+    </tr>
+
+    <tr>
+      <td><code>&lt;tfoot&gt;</code></td>
+      <td>Groups the footer content in a table</td>
+    </tr>
+
+    </tbody>
+  </table>
+
+  <hr>
+
+  <h4>Here is the video of lecture 2</h4>
+  <iframe src="https://www.youtube.com/embed/AJ4E1zf5tQs"  allowfullscreen></iframe>
+
+  <br><br>
+
+  <a href="https://www.notion.so/HTML-Hyper-Text-Markup-Language-2603a78e0e228098958fd3cbbbb540de">Click here to get class notes</a>
+
+
+
+
+    
+
+    
+
+       
+    
+
+    <hr>
+    <br>
+  <a href="./Homepage.html"><b>Back to Home page</b></a>
+  &nbsp;
+  <a href="./Lecture1.html"><b>previous Lecture</b></a>
+  &nbsp;
+  <a href="./Lecture3.html"><b>Next Lecture</b></a>
+
+    
+</body>
+</html>
